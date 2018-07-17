@@ -16,4 +16,13 @@ public class FizzBuzz {
 
         return (fizzBuzzWord.length() == 0) ? null : fizzBuzzWord.toString();
     }
+
+    public String sayHello(String str){
+        StringBuilder hello = new StringBuilder();
+        if (str.equals("bhanu")) {
+            hello.append("bhanu");
+        }
+        return str;
+
+    }
 }
